@@ -1,8 +1,9 @@
 # ThumborMongoDocker
 Thumbor6 with upload and download image by Mongo GridFS
 
-> Base from https://github.com/APSL/docker-thumbor
->> Thumbor code https://github.com/thumbor/thumbor
+Base from https://github.com/APSL/docker-thumbor
+
+Thumbor code https://github.com/thumbor/thumbor
 
 ## Thumbor compatible with mongo GridFS Test with mongo 3.4
 MongoDB https://www.mongodb.com/download-center
@@ -22,11 +23,12 @@ ENV UPLOAD_ENABLED                =     True         #enable upload
 ENV UPLOAD_PUT_ALLOWED            =     True         #enable put update file
 ```
 
-
 Test get image by http://<host-thumbor>/unsafe/smart/1c6d2372252f4e18a54112a589017441
 
->> `1c6d2372252f4e18a54112a589017441` is file parth
+`1c6d2372252f4e18a54112a589017441` is file parth
+
 Read: https://github.com/lionants02/thumbor_mongodb/tree/Workwith_tc_mongodb
+
 
 GitHub https://github.com/lionants02/ThumborMongoDocker
 

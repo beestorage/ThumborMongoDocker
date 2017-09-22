@@ -11,7 +11,7 @@ MongoDB https://www.mongodb.com/download-center
 ### Thumbor compatible with mongoDB GridFS
 ### You can connect to mongoDB with default setting.
 
-pull by `docker pull lionants02/thumbormongodocker`
+pull by `docker pull lionants02/thumbormongodocker:1.0`
 
 ## Parameter env docker
 ```

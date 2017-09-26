@@ -8,8 +8,6 @@ Thumbor code https://github.com/thumbor/thumbor
 ## Thumbor compatible with mongo GridFS Test with mongo 3.4
 MongoDB https://www.mongodb.com/download-center
 
-# https://github.com/lionants02/ThumborMongoShardingCompose
-
 ### Thumbor compatible with mongoDB GridFS
 ### You can connect to mongoDB with default setting.
 
@@ -35,3 +33,5 @@ Read: https://github.com/lionants02/thumbor_mongodb/tree/Workwith_tc_mongodb
 GitHub https://github.com/lionants02/ThumborMongoDocker
 
 Docker: https://hub.docker.com/r/lionants02/thumbormongodocker/
+
+# Docker compose https://github.com/lionants02/ThumborMongoShardingCompose

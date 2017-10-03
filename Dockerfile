@@ -11,6 +11,9 @@ ENV UPLOAD_DEFAULT_FILENAME image
 RUN pip install thumbor --upgrade
 RUN pip install pymongo --upgrade
 RUN pip install thumbor_hbase
-RUN pip install tc_mongodb
+#RUN pip install tc_mongodb
+RUN pip uninstall tc_mongodb
 RUN sh -c 'git clone -b Workwith_tc_mongodb https://github.com/lionants02/thumbor_mongodb.git /usr/src/app/thumbor_mongodb/'
+RUN sh -c 'git clone https://github.com/lionants02/mongodb.git /usr/src/app/tc_mongodb/'
 RUN sh /usr/src/app/thumbor_mongodb/setup_mongodb.sh
+RUN sh /usr/src/app/tc_mongodb/setup_mongo.sh

@@ -21,6 +21,7 @@ ENV MONGO_STORAGE_SERVER_DB       =     picture      #database name autocreate
 ENV MONGO_STORAGE_SERVER_COLLECTION =   files        #collection autocreate
 ENV UPLOAD_ENABLED                =     True         #enable upload
 ENV UPLOAD_PUT_ALLOWED            =     True         #enable put update file
+UPLOAD_DELETE_ALLOWED             =     True         #enable delete file
 ```
 
 Test get image by http://<host-thumbor>/unsafe/smart/1c6d2372252f4e18a54112a589017441

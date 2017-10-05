@@ -1,5 +1,5 @@
 FROM apsl/thumbor:latest
-ENV LOADER thumbor_mongodb.loader
+#ENV LOADER thumbor_mongodb.loader
 ENV MONGO_STORAGE_SERVER_HOST 10.226.58.11
 ENV MONGO_STORAGE_SERVER_PORT 27017
 ENV MONGO_STORAGE_SERVER_DB picture
